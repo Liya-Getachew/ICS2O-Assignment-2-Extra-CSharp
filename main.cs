@@ -11,8 +11,8 @@ class Program
     {
         // This function accepts user input
         int sideLengthOfSquare;
-      
-        Console.WriteLine ("This program calculates the perimeter of a square in meters.");
+
+        Console.WriteLine("This program calculates the perimeter of a square in meters.");
         Console.WriteLine("");
 
         Console.Write("Enter side length of square (m): ");
