@@ -12,16 +12,16 @@ class Program
         // This function accepts user input
         int sideLengthOfSquare;
 
-        Console.WriteLine("This program calculates the perimeter of a square in meters.");
+        Console.WriteLine("This program calculates the perimeter of a square in centimeters (cm).");
         Console.WriteLine("");
 
-        Console.Write("Enter side length of square (m): ");
+        Console.Write("Enter side length of square (cm): ");
         sideLengthOfSquare = Convert.ToInt32(Console.ReadLine());
 
         int perimeter = sideLengthOfSquare * 4;
 
         Console.WriteLine("");
-        Console.WriteLine("Perimeter = " + perimeter + " m.");
+        Console.WriteLine("Perimeter = " + perimeter + " cm.");
 
         Console.WriteLine("\nDone");
     }
